@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    background-color: #2a3950;
+    font-family: 'Quicksand', sans-serif;
+}
+div.row {
+    height: 100vh;
+}
+
+nav flex-column nav-pills {
+    background-color: none;
+}
+
+nav flex-column nav-pills:hover {
+    background-color: #aacdf2;
+    transition: all 0.3s ease 0s;
+}
+
+form-inline {
+    display: inline-block;
+}
