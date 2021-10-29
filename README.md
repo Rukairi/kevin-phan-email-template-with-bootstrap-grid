@@ -10,3 +10,9 @@
 October 14, 2021
     
     - Uploaded project to GitHub
+
+October 28, 2021
+
+    - Upgraded layout in email-portal.html
+    - Removed junk styles.css
+    - Added javascript for theme toggler functionality
