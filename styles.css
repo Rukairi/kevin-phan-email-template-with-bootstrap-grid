@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body {
     background-color: #2a3950;
-    font-family: 'Quicksand', sans-serif;
-}
-div.row {
-    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav flex-column nav-pills {
-    background-color: none;
+.nav-link:hover{
+    color:#495057;
+    background-color:#fff;
+    border-color:#dee2e6 #dee2e6 #fff
 }
 
-nav flex-column nav-pills:hover {
-    background-color: #aacdf2;
-    transition: all 0.3s ease 0s;
-}
-
-form-inline {
+.form-inline {
     display: inline-block;
+}
+
+.card-body {
+    border-width: 1 1 1 1;
 }
