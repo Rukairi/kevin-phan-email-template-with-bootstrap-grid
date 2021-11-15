@@ -4,6 +4,7 @@
     - Please don't look at my code, because I fail in life.
 
 **Issues**
+    
     - CODE: theme-toggler on expanded screen size is not placed correctly either on the same navbar as email icon or centered.
     - CODE: At display width 768-781, the initial menu-nav does not appear
     - CODE: External elements like the collapsible menu, attach file icon, and send button is not compatible with the dark theme.
@@ -22,6 +23,7 @@ October 28, 2021
     - Added javascript for theme toggler functionality
 
 November 15, 2021
+    
     - Complete overhaul of email-portal.html & styles.css
     - Added IDs to most elements
     - Finished adding functionality on the third column
