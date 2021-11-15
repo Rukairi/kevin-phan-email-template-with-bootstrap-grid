@@ -98,7 +98,7 @@ body {
     }
     
     #menu-nav {
-        display: show;
+        display: initial;
      }
 }
 
