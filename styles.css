@@ -1,20 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    background-color: #2a3950;
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav-link:hover{
-    color:#495057;
-    background-color:#fff;
-    border-color:#dee2e6 #dee2e6 #fff
+#collapsible-menu { 
+    background-color: #e9ecef;
+} 
+
+#collapsible-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
 }
 
-.form-inline {
-    display: inline-block;
+#collapsible-menu .navbar-toggler {
+    border-color: rgb(168, 167, 167);
 }
 
-.card-body {
-    border-width: 1 1 1 1;
+#collapsible-menu .navbar-toggler:focus {
+    box-shadow: 0 0 0 2px;
+}
+
+#collapsible-menu .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.collapsible-menu-collapse {
+    height: auto;
+    position: relative;
+    top: 60;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #adafae;
+    display: none;
+    padding-bottom: 5px;
+}
+
+#textarea-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #b8b8b8;
+}
+
+#textarea-container textarea {
+    border: 1px solid #b8b8b8;
+    outline: none;
+    color: #212529;
+    padding: 8px;
+    resize: none;
+    height: 240px;
+}
+
+#textarea-container svg:hover { 
+    color: #9b9b9b; 
+}
+
+#btn-send {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+ }
+
+#collapsible-theme-toggler {
+    padding: 10px;
+    margin-right: 10px;
+}
+ #theme-toggler {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1600px) {
+    #email-container-content { 
+        padding: 10px 10px; 
+    }
+    #textarea-container {  
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #email-container-header span { 
+        font-size: 15px; 
+    }
+    #email-container-content { 
+        padding: 10px 5px; 
+    }   
+}
+
+@media (max-width: 834px) {
+    .email-card { 
+        margin: 0 2px; 
+    }
+    
+    #menu-nav {
+        display: show;
+     }
+}
+
+@media (max-width: 782px) {
+    #email-list { 
+        padding-left: 0; 
+    }
+
+    .collapsible-menu-collapse { 
+        display: block;
+    }
+
+    #menu-nav {
+       display: none;
+    }
+}
+
+@media (max-width: 568px) {
+    #email-container-content { 
+        padding: 5px 5px; }
 }
